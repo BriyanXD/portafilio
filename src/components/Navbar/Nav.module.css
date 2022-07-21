@@ -2,6 +2,7 @@
 
 .navbar{
     width: 100%;
+    font-family: var(--font-primary);
 }
 .info{
     background-color: var(--color-primario);
@@ -20,7 +21,8 @@
 }
 .logo{
     color: var(--color-text-nav);
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 700;
 }
 .linksContainer{
     background-color: var(--color-secundario);
@@ -47,9 +49,10 @@
     align-items: center;
     text-align: center;
     color: var(--color-text-nav);
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 300;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: 0.4s;
 }
 .inactive{

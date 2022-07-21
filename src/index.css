@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -5,9 +7,12 @@ body{
     margin: 0;
 }
 :root{
+    /* Colores para la pagina */
     --color-primario: rgb(48, 48, 48);
     --color-secundario: rgb(85, 85, 85);
     --color-secundario-hover: rgb(37, 37, 37);
     --color-text-nav: wheat;
     --color-text-nav-hover:rgb(218, 180, 110);
+    /* Estilos par el texto */
+    --font-primary: 'Comfortaa', cursive;
 }

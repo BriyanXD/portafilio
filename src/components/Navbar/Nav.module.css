@@ -1,0 +1,90 @@
+@import "../../index.css";
+
+.navbar{
+    width: 100%;
+}
+.info{
+    background-color: var(--color-primario);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu{
+    color: var(--color-text-nav);
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo{
+    color: var(--color-text-nav);
+    font-size: 25px;
+}
+.linksContainer{
+    background-color: var(--color-secundario);
+    width: 100%;
+    height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+}
+.link{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-text-nav);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.inactive{
+    transform: translateY(-150%);
+}
+.active{
+    transform: translateY(0%);
+}
+.link:hover{
+    color: var(--color-text-nav-hover);
+    background-color: var(--color-primario);
+}
+
+@media screen and (min-width: 1000px) {
+    .menu{
+        display: none;
+    }
+    .linksContainer{
+        transform: translateY(0%);
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: transparent;
+        width: 50%;
+        position: relative;
+        margin-top: 0;
+    }
+    .logo{
+        padding-left: 15px;
+    }
+    .link{
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .link:hover{
+        background-color: var(--color-secundario);
+    }
+}

@@ -1,4 +1,4 @@
-import Nav from "./components/Nav";
+import Nav from "./components/Navbar/Nav";
 function App() {
   return (
     <div className="App">

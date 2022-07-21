@@ -6,6 +6,20 @@
 body{
     margin: 0;
 }
+#root{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr 10vh;
+}
+.header{
+    grid-row: 1 /2;
+}
+.main{
+    grid-row: 2 / 3;
+}
+.footer{
+    grid-row: 3 / 4;
+}
 :root{
     /* Colores para la pagina */
     --color-primario: rgb(48, 48, 48);

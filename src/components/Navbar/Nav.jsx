@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import style from './Nav.module.css'
 
 function Nav(){
-    const [activeMenu, setActiveMenu] = useState(false)
+    const [activeMenu, setActiveMenu] = useState(true)
     return(
         <nav className={style.navbar}>
             <div className={style.info}>
@@ -13,7 +13,7 @@ function Nav(){
                 <span className={style.menu} onClick={() => setActiveMenu(!activeMenu)}><FontAwesomeIcon icon={faBars} /></span>
                 <div className={activeMenu ? ` ${style.inactive} ${style.linksContainer}`
                 : ` ${style.active} ${style.linksContainer}`}>
-                    <Link className={style.link} to='/'>Inicio</Link>
+                    <Link className={style.link} to='/home'>Inicio</Link>
                     <Link className={style.link} to='/abount'>Sobre mi</Link>
                     <Link className={style.link} to='/projects'>Proyectos</Link>
                     <Link className={style.link} to='/contact'>Contactame</Link>

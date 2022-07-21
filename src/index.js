@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import App from "./App";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nav from "./components/Navbar/Nav";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+//import Error from "./components/Error/Error";
+import Abount from "./components/Abount/Abount";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
@@ -10,9 +13,19 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-      </Routes>
+      <header className="header">
+        <Nav />
+      </header>
+      <main className="main">
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/abount" element={<Abount />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+      <footer className="footer">
+        <Footer />
+      </footer>
     </BrowserRouter>
   </React.StrictMode>
 );

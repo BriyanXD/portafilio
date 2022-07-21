@@ -1,0 +1,5 @@
+.footerContainer{
+    background-color: var(--color-primario);
+    height: 100%;
+    color: var(--color-text-nav);
+}

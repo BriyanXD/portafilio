@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-
-*{
+*{@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap');
     box-sizing: border-box;
 }
 body{
@@ -22,11 +21,13 @@ body{
 }
 :root{
     /* Colores para la pagina */
-    --color-primario: rgb(48, 48, 48);
-    --color-secundario: rgb(85, 85, 85);
+    --color-primario: #000000;
+    --color-secundario: #1F1F1F;
     --color-secundario-hover: rgb(37, 37, 37);
-    --color-text-nav: wheat;
+    --color-text-nav: #FFF;
     --color-text-nav-hover:rgb(218, 180, 110);
+    --color-primario-transparent:rgba(5, 5, 5,.7);
     /* Estilos par el texto */
     --font-primary: 'Comfortaa', cursive;
+    --font-titles: 'Kanit', sans-serif;
 }

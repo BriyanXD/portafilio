@@ -1,5 +1,11 @@
+@import url(../../index.css);
 .footerContainer{
     background-color: var(--color-primario);
     height: 100%;
     color: var(--color-text-nav);
+    font-family: var(--font-primary);
+    font-size: .9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

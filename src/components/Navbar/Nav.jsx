@@ -12,7 +12,7 @@ function Nav(){
                 <span className={style.logo}>Briyan</span>
                 <span className={style.menu} onClick={() => setActiveMenu(!activeMenu)}><FontAwesomeIcon icon={faBars} /></span>
                 <div className={activeMenu ? ` ${style.inactive} ${style.linksContainer}`
-                : ` ${style.active} ${style.linksContainer}`}>
+                : ` ${style.active} ${style.linksContainer}`} onClick={() => setActiveMenu(!activeMenu)}>
                     <Link className={style.link} to='/home'>Inicio</Link>
                     <Link className={style.link} to='/abount'>Sobre mi</Link>
                     <Link className={style.link} to='/projects'>Proyectos</Link>

@@ -1,0 +1,78 @@
+@import url(../../index.css);
+
+.containerProjects{
+    background-color: var(--color-text-nav);
+    width: 100%;
+}
+.title{
+    padding-top: 2vh;
+    padding-left: 10%;
+    margin: 0;
+    display: inline-block;
+    color: var(--color-secundario);
+    text-shadow: 3px 2px 2px var(--color-text-nav-hover);
+    font-size: 3em;
+    font-family: var(--font-primary);
+}
+.containerCards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.cardProject{
+    width: 90%;
+    padding-bottom: 20px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+}
+.cardProject:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.titleCard{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: var(--color-secundario);
+    text-shadow: 3px 2px 2px var(--color-text-nav-hover);
+    font-size: 1em;
+    font-family: var(--font-primary);
+}
+.cardImage{
+    width: 100%;
+    object-fit: cover;
+}
+.textCard{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--font-titles);
+}
+.buttonCardVisit{
+    background-color: var(--color-primario);
+    color: var(--color-text-nav);
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.buttonCard{
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid var(--color-secundario);
+    color: var(--color-secundario);
+    transition: .2s;
+    cursor: pointer;
+}
+.svgGit{
+    width: 20px;
+    color: var(--color-text-nav);
+}
+.buttonCard:active{
+    background-color: var(--color-text-nav-hover);
+}

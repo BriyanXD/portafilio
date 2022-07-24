@@ -55,7 +55,7 @@ function Abount(){
                             </div>
                         <div className={style.containImage}>
                             <Tooltip title="CSS"  placement="top" arrow disableInteractive>
-                                <img className={style.imageskill} src={imagecss} alt="css" title="CSS"/>
+                                <img className={style.imageskill} src={imagecss} alt="css"/>
                             </Tooltip>
                             </div>
                         <div className={style.containImage}>

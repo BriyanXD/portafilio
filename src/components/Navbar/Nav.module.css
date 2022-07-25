@@ -46,7 +46,7 @@
 }
 .link{
     width: 100%;
-    height: 4em;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +55,13 @@
     font-size: 1em;
     font-weight: 300;
     text-decoration: none;
-    text-transform: uppercase;
     transition: 0.4s;
+}
+.activebutton{
+    color: var(--color-primario);
+    background-color: var(--color-text-nav-hover);
+    animation: linkActive 2s;
+    box-shadow: inset 0px 0px 0px 5px var(--color-secundario);
 }
 .inactive{
     transform: translateY(-150%);
@@ -67,6 +72,14 @@
 .link:hover{
     color: var(--color-text-nav-hover);
     background-color: var(--color-primario);
+}
+@keyframes linkActive {
+    from{
+        box-shadow: inset 0px 0px 0px 0px rgb(0, 0, 0);
+    }
+    to{
+        box-shadow: inset 0px 0px 0px 5px black;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -87,9 +100,16 @@
         padding-left: 1em;
     }
     .link{
-        width: auto;
+        width: 120px;
         padding-left: 1em;
         padding-right: 1em;
+    }
+    .activebutton{
+        color: var(--color-primario);
+        background-color: var(--color-secundario);
+        color: var(--color-text-nav);
+        animation: linkActive 2s;
+        box-shadow: inset 0px 0px 0px 5px var(--color-primario);
     }
     .link:hover{
         background-color: var(--color-secundario);

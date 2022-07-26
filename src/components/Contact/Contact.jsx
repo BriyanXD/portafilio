@@ -39,7 +39,7 @@ function Contact(){
     return(
         <div className={style.containerContact}>
             <form className={style.formEmail} onSubmit={sendEmail}>
-                <h2 className={style.titleForm}>Conctactame</h2>
+                <h2 className={style.titleForm}>Contáctame</h2>
                 <input className={style.inputForm} type="text"  name="from_name" placeholder="Nombre" required/>
                 <br />
                 <input className={style.inputForm} type="email" name="from_email" placeholder="Correo" required/>

@@ -16,7 +16,7 @@ function Nav(){
                     <NavLink className={({isActive}) => isActive ? `${style.link} ${style.activebutton}`: `${style.link}`} to='/'>Inicio</NavLink>
                     <NavLink className={({isActive}) => isActive ? `${style.link} ${style.activebutton}`: `${style.link}`} to='/abount'>Sobre mi</NavLink>
                     <NavLink className={({isActive}) => isActive ? `${style.link} ${style.activebutton}`: `${style.link}`} to='/projects'>Proyectos</NavLink>
-                    <NavLink className={({isActive}) => isActive ? `${style.link} ${style.activebutton}`: `${style.link}`} to='/contact'>Contactame</NavLink>
+                    <NavLink className={({isActive}) => isActive ? `${style.link} ${style.activebutton}`: `${style.link}`} to='/contact'>Contáctame</NavLink>
                 </div>
             </div>
         </nav>

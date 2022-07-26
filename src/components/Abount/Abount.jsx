@@ -89,7 +89,7 @@ function Abount(){
                 <div className={style.hobies}>
                     <h1>Others</h1>
                     <ul className={style.listHobbies}>
-                        <li>Astronomia</li>
+                        <li>Astronomía</li>
                         <li>Diseño grafico</li>
                         <li>Ciberseguridad</li>
                     </ul>

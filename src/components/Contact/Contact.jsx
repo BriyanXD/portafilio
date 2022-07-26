@@ -22,6 +22,8 @@ function Contact(){
 
     const sendEmail = (event) => {
         event.preventDefault();
+        console.log(process.env,"Proccess")
+        console.log(event.target,"Event")
         emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, event.target, process.env.REACT_APP_USER_ID)
         .then(function(response) {
             Toast.fire({

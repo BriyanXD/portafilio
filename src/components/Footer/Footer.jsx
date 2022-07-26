@@ -2,7 +2,7 @@ import style from "./Footer.module.css"
 function Footer(){
     return(
         <div className={style.footerContainer}>
-            <span>Hecho con ❤ desde Bolivia</span>
+            <span>Hecho con ❤ en Bolivia</span>
         </div>
     );
 }

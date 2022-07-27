@@ -50,7 +50,7 @@ function Projects(){
                 <div className={style[classStyles.cadConcerTeck]} id="cadConcerTeck" ref={cardConcerteckRef}>
                     <img id="concerteck" className={style.cardImage} src={imageConcerTeck} alt="ConcerTeck" />
                     <span className={style.titleCard}>ConcerTeck</span>
-                    <p className={style.textCard}>Es un E-Commerce orientado a que puedas comprar los boletos para tus eventos favoritos, también puedes publicar tus eventos para que podamos vender tickets con nosotros contamos con todo lo necesario para hacerte fácil el comprar y vender tickets para un envento. </p>
+                    <p className={style.textCard}>Es un E-Commerce orientado a que puedas comprar los boletos para tus eventos favoritos, también si eres productor o artista puedes vender tickets con nosotros. Contamos con todo lo necesario para hacerte fácil el comprar y vender tickets para un evento. </p>
                     <a href="https://concer-teck-front-end.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <button className={style.buttonCardVisit}>
                             <FontAwesomeIcon icon={faCircleChevronRight}/> Ver web

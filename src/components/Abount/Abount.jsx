@@ -11,6 +11,7 @@ import imagepostgress from "../../assets/image/postgres.png"
 import imagesequelize from "../../assets/image/sequelize.png"
 import imagegit from "../../assets/image/git.png"
 import imagematerialui from "../../assets/image/materialui.png"
+import cvBriyan from "../../assets/pdf/Briyan Angel Bohtelo - CV - Full stack developer.pdf"
 const imagenAvatar = "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_640.png"
 
 
@@ -23,7 +24,7 @@ function Abount(){
             <p>
             Mi nombre es Briyan Angel Bohtelo soy un apasionado por la tecnología y la astronomía resido en La Paz Bolivia ando en busca de mi camino dentro de la programación me interesa aprender más sobre las tecnologías que ya conozco y explorar nuevos campos dentro de la tecnología en  mi persona encontraras alguien perseverante, empático y curioso dispuesto a unirse a un proyecto desafiante dispuesto a darlo todo y listo para aprender en el proceso.
             </p>
-            <button className={style.download}>Descargar CV</button>
+            <a href={cvBriyan} download={cvBriyan}><button className={style.download}>Descargar CV</button></a>
             <div className={style.skillsAndHobbies}>
                 <div className={style.skills}>
                     <h1>Skills</h1>

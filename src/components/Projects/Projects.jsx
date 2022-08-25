@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState} from "react"
 import style from "./Projects.module.css"
-import imageConcerTeck from "../../assets/image/concerteck.png"
-import imageDogApi from "../../assets/image/DogApi.png"
+import imageConcerTeck from "../../assets/image/concerteck.jpg"
+import imageDogApi from "../../assets/image/DogApi.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronRight, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 
